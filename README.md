@@ -22,6 +22,30 @@ The LLaMA model can be obtained from [here](https://ai.facebook.com/blog/large-l
     └── ...
 
 
+## Run the Meteorite application
+
+The example was developed with `Python 3.8`.
+
+
+### Install requirements
+```shell
+pip install -r requirements.txt
+```
+
+### Run the application
+
+The Meteorite application is written in [main.py](./main.py)
+```shell
+python main.py
+```
+
+Once the application is started:
+```shell
+➜ python main.py
+[2023-04-16T15:43:36Z INFO  actix_server::builder] starting 1 workers
+[2023-04-16T15:43:36Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+```
+
 ## Acknowledgements
 This example is not possible without the following projects:
 
