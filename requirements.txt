@@ -1,0 +1,3 @@
+llama-cpp-python==0.1.34
+meteorite==0.0.5
+typing_extensions==4.5.0
